@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #0a1118;
+  --primary-color-highlight: #233d54;
+}
+.navbar-logo {
+  height: 100px;
+}
+/* Add custom styles if needed */
+.overlay-container {
+  position: relative;
+  text-align: center; /* Center align the text within the container */
+}
+.overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+.additional-text {
+  text-align: left;
+}
+@media (max-width: 400px) {
+  /* Apply styles when window size is less than 550px */
+  .navbar-logo {
+    height: 60px;
+  }
+}
+.section-1 {
+  min-height: 80vh;
+  max-height: 150vh;
+  position: relative;
+  color: black;
+}
+
+.section-2 {
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  max-height: 180vh;
+  position: relative;
+  color: black;
+}
+
+.section-3 {
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  max-height: 150vh;
+  position: relative;
+  color: black;
+}
+.section-4 {
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  max-height: 150vh;
+  position: relative;
+  color: black;
+}
+.masthead {
+  background-size: cover;
+  min-height: 60vh;
+  position: relative;
+  color: black;
+}
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+.svg-icon {
+  margin-right: 1rem;
+}
